@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stackly – Digital Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+<div id="page-loader">
+  <div class="loader"></div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-container">
+
+   <div class="logo">
+  <a href="index.html" class="logo-link">
+    <img src="Images/logo.webp" class="logo-img" alt="Stackly">
+  </a>
+</div>
+
+
+    <nav class="nav-menu" id="navMenu">
+      <a class="active" href="index.html">Home</a>
+      <a href="404.html">About</a>
+      <a href="404.html">Services</a>
+      <a href="404.html">Pages</a>
+      <a href="404.html">Archive</a>
+      <a href="404.html">Contact Us</a>
+    </nav>
+
+    <a href="tel:+911234567890" class="call-btn">
+      <i class="fa-solid fa-phone"></i> +91 1234567890
+    </a>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+
+  </div>
+</header>
+
+<section class="hero">
+
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="Images/video.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-container">
+    <div class="hero-content fade-in">
+
+      <h1>
+        Amplify Your Brand with
+        <span>Cutting-Edge Digital</span> Marketing
+      </h1>
+
+      <p>
+        Stackly empowers businesses to grow online with data-driven digital
+        marketing, innovative branding, and performance-focused strategies.
+      </p>
+
+      <div class="hero-actions">
+        <a href="404.html" class="btn-primary">
+          Get Started <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <div class="reviews">
+          <img src="https://i.pravatar.cc/40?img=1">
+          <img src="https://i.pravatar.cc/40?img=2">
+          <img src="https://i.pravatar.cc/40?img=3">
+          <span>2.7k Positive Reviews</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="expertise">
+
+  <!-- LEFT AREA -->
+  <div class="left-area fade-in">
+
+    <div class="cta-box">
+      <h3>Ready to Elevate Your<br>Digital Presence?</h3>
+      <p>Let's create a custom strategy that fits your business goals.</p>
+      <a href="404.html">Get Free Consultation <span>→</span></a>
+    </div>
+
+    <div class="image-box fade-in">
+      <img src="Images/about.webp" alt="Team">
+    </div>
+
+  </div>
+
+  <!-- CENTER CONTENT -->
+  <div class="content-area fade-in">
+
+    <span class="tag">
+      <i class="fa-solid fa-circle"></i> Our Expertise
+    </span>
+
+    <h1>
+      Data Driven Strategies,<br>
+      <span>Measurable Results</span>
+    </h1>
+
+    <p class="desc">
+      At Stackly, we specialize in crafting innovative digital marketing strategies
+      that drive real business growth. Our expertise ensures your brand stays ahead
+      in the competitive digital landscape.
+    </p>
+
+    <h4>What We Do Best</h4>
+
+    <ul>
+      <li><i class="fa-solid fa-check"></i> Performance Marketing</li>
+      <li><i class="fa-solid fa-check"></i> Social Media Growth</li>
+      <li><i class="fa-solid fa-check"></i> Content Marketing</li>
+      <li><i class="fa-solid fa-check"></i> PPC & Paid Ads</li>
+      <li><i class="fa-solid fa-check"></i> Brand Strategy</li>
+      <li><i class="fa-solid fa-check"></i> Conversion Optimization</li>
+    </ul>
+
+  </div>
+
+  <!-- EXPERIENCE FLOAT CARD -->
+  <div class="experience-box fade-in">
+    <h2>21<span>+</span></h2>
+    <h5>Years of Experience on<br>Digital Marketing Services</h5>
+    <p>
+    With over two decades of expertise, we help businesses grow through
+    data-driven digital marketing strategies, innovative solutions, and
+    measurable results.
+    </p>
+  </div>
+
+</section>
+
+<section class="brands-section">
+
+  <div class="brands-card">
+
+    <div class="brands-header fade-in">
+      <h2>
+        Powering <span>Success</span> for<br>
+        Top Brands
+      </h2>
+
+      <p>
+        We partner with leading brands to deliver impactful digital solutions
+    that drive growth, strengthen market presence, and create measurable
+    business success.
+      </p>
+    </div>
+
+<div class="brands-logos">
+
+  <div class="brand-pill fade-in">
+    <i class="fa-solid fa-layer-group"></i>
+    <span>Arkon</span>
+  </div>
+
+  <div class="brand-pill fade-in">
+    <i class="fa-solid fa-shapes"></i>
+    <span>Crevox</span>
+  </div>
+
+  <div class="brand-pill fade-in">
+    <i class="fa-solid fa-cubes"></i>
+    <span>Brandex</span>
+  </div>
+
+  <div class="brand-pill fade-in">
+    <i class="fa-solid fa-bolt"></i>
+    <span>Bravix</span>
+  </div>
+
+  <div class="brand-pill fade-in">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <span>Nexora</span>
+  </div>
+
+  <div class="brand-pill fade-in">
+    <i class="fa-solid fa-chart-line"></i>
+    <span>Adscope</span>
+  </div>
+
+</div>
+
+
+  </div>
+
+</section>
+
+<section class="why-choose">
+
+  <!-- LEFT FEATURES -->
+  <div class="features">
+
+    <div class="feature-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-chart-pie"></i>
+      </div>
+      <div>
+        <h4>Data-Driven Approach</h4>
+        <p>
+          We use real-time data and insights to make smarter decisions and achieve
+  maximum business impact.
+        </p>
+        <a href="404.html">Read More <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="feature-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-lightbulb"></i>
+      </div>
+      <div>
+        <h4>Creative & Innovative</h4>
+        <p>
+          Cutting-edge marketing techniques to keep you ahead of the competition.
+        </p>
+        <a href="404.html">Read More <span>→</span></a>
+      </div>
+    </div>
+
+    <div class="feature-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-eye"></i>
+      </div>
+      <div>
+        <h4>Transparent Reporting</h4>
+        <p>
+          Clear insights and performance tracking, so you always know your ROI.
+        </p>
+        <a href="404.html">Read More <span>→</span></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT CONTENT -->
+  <div class="content fade-in">
+
+    <span class="tag">
+      <i class="fa-solid fa-circle-dot"></i> Why Choose Stackly
+    </span>
+
+    <h2>Your Success is <span>Our Mission</span></h2>
+
+    <p class="desc">
+      In the fast-paced digital world, choosing the right marketing partner
+      makes all the difference. At Stackly, we don’t just create campaigns—we
+      craft strategies that deliver measurable success.
+    </p>
+
+    <div class="image-wrapper fade-in">
+      <img src="Images/team.webp" alt="Team Discussion">
+
+      <!-- FLOATING CTA -->
+      <div class="floating-card fade-in">
+        <p>
+          Partner with Stackly & take your brand to the next level.
+        </p>
+        <a href="404.html">Let's Talk Strategy <span>→</span></a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="services">
+
+  <span class="section-tag fade-in">
+    <i class="fa-solid fa-circle-dot"></i> Our Core Services
+  </span>
+
+  <h2 class="section-title fade-in">
+    Digital Solutions That Drive<br>
+    <span>Real Results</span>
+  </h2>
+
+  <div class="services-grid">
+
+    <!-- CARD 1 -->
+    <div class="service-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-hashtag"></i>
+      </div>
+      <h4>Social Media Marketing</h4>
+      <p>
+        Build brand awareness and engage your audience effectively
+        through data-driven social strategies.
+      </p>
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="service-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-pen-nib"></i>
+      </div>
+      <h4>Content Marketing</h4>
+      <p>
+        Create compelling content that connects with your audience
+        and strengthens your brand voice.
+      </p>
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="service-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-bullhorn"></i>
+      </div>
+      <h4>PPC Advertising</h4>
+      <p>
+        Drive targeted traffic and maximize ROI with high-performance
+        paid advertising campaigns.
+      </p>
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="service-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <h4>Email Marketing</h4>
+      <p>
+        Engage, nurture, and convert leads with personalized
+        email marketing strategies.
+      </p>
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="service-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-palette"></i>
+      </div>
+      <h4>Branding & Design</h4>
+      <p>
+        Build a strong brand identity with visually stunning
+        and strategically designed assets.
+      </p>
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="service-card fade-in">
+      <div class="icon">
+        <i class="fa-solid fa-code"></i>
+      </div>
+      <h4>Web Development</h4>
+      <p>
+        Develop fast, responsive, and scalable websites
+        that deliver seamless user experiences.
+      </p>
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="testimonials">`
+
+  <!-- TOP GRID -->
+  <div class="top-grid">
+
+    <!-- LEFT STATS CARD -->
+    <div class="stats-card fade-in">
+
+      <div class="reviews">
+        <div class="avatars">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg">
+          <img src="https://randomuser.me/api/portraits/men/75.jpg">
+        </div>
+        <span>2.7k Positive Reviews</span>
+      </div>
+
+      <div class="stats">
+        <div>
+          <h3>90%</h3>
+          <p>Improved Project</p>
+        </div>
+        <div>
+          <h3>49%</h3>
+          <p>New Project</p>
+        </div>
+      </div>
+
+      <ul class="stats-list">
+        <li><span></span> Social Media Growth</li>
+        <li><span></span> Performance Marketing</li>
+      </ul>
+
+    </div>
+
+    <!-- RIGHT HEADING CARD -->
+    <div class="heading-card fade-in">
+      <span class="tag">
+        <i class="fa-solid fa-circle-dot"></i> What Our Client Says
+      </span>
+
+      <h2>
+        Hear from Our <span>Satisfied Clients</span>,
+        Real Success Stories
+      </h2>
+
+      <p>
+        Discover how businesses like yours achieved outstanding growth
+        with Stackly's expert digital marketing solutions.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- TESTIMONIAL GRID -->
+  <div class="testimonial-grid">
+
+    <div class="testimonial-card fade-in">
+      <div class="stars">★★★★★</div>
+
+      <div class="user">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg">
+        <div>
+          <h4>Emma Richard</h4>
+          <span>CEO, Nexatech</span>
+        </div>
+        <i class="fa-solid fa-quote-right"></i>
+      </div>
+
+      <p>
+        Stackly completely transformed our online presence.
+        Their digital marketing strategies helped double our revenue
+        in just six months.”
+      </p>
+    </div>
+
+    <div class="testimonial-card fade-in">
+      <div class="stars">★★★★★</div>
+
+      <div class="user">
+        <img src="https://randomuser.me/api/portraits/men/46.jpg">
+        <div>
+          <h4>David Mont</h4>
+          <span>Marketing Director</span>
+        </div>
+        <i class="fa-solid fa-quote-right"></i>
+      </div>
+
+      <p>
+        “We’ve worked with many agencies before, but Stackly stands out.
+        Their data-driven and creative solutions gave us a competitive edge.”
+      </p>
+    </div>
+
+    <div class="testimonial-card fade-in">
+      <div class="stars">★★★★★</div>
+
+      <div class="user">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg">
+        <div>
+          <h4>Sophia Lewis</h4>
+          <span>Founder</span>
+        </div>
+        <i class="fa-solid fa-quote-right"></i>
+      </div>
+
+      <p>
+        “From SEO to paid ads, Stackly nailed every aspect of our campaign.
+        Our website traffic skyrocketed and lead generation has never been better.”
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="how-it-works">
+
+  <!-- TOP CONTENT -->
+  <div class="how-header fade-in">
+    <div class="left">
+      <span class="tag">
+        <i class="fa-solid fa-circle-dot"></i> How it Work
+      </span>
+      <h2>
+        Simple Steps to<br>
+        <span>Digital Success</span>
+      </h2>
+    </div>
+
+    <div class="right">
+      <p>
+        Our proven process is designed to deliver seamless digital growth.
+      From initial planning to execution, we ensure every step drives
+      measurable results and long-term success.
+      </p>
+      <a href="404.html" class="cta-link">
+        Get Started Now <span>→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- STEPS CARD -->
+  <div class="steps-card">
+
+    <div class="step fade-in">
+      <span class="step-no">01</span>
+      <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <h4>Discovery & Consult</h4>
+      <p>
+        We analyze your business goals, audience, and market to understand
+      your needs and identify the best digital opportunities.
+      </p>
+    </div>
+
+    <div class="step fade-in">
+      <span class="step-no">02</span>
+      <div class="icon">
+        <i class="fa-solid fa-diagram-project"></i>
+      </div>
+      <h4>Strategy & Planning</h4>
+      <p>
+        Our experts create a tailored digital strategy and action plan
+      aligned with your business objectives and growth targets.
+      </p>
+    </div>
+
+    <div class="step fade-in">
+      <span class="step-no">03</span>
+      <div class="icon">
+        <i class="fa-solid fa-rocket"></i>
+      </div>
+      <h4>Execution & Optimize</h4>
+      <p>
+        We implement the strategy, continuously monitor performance,
+      and optimize campaigns to maximize efficiency and results.
+      </p>
+    </div>
+
+    <div class="step fade-in">
+      <span class="step-no">04</span>
+      <div class="icon">
+        <i class="fa-solid fa-chart-line"></i>
+      </div>
+      <h4>Result & Growth</h4>
+      <p>
+         We measure outcomes, share transparent reports, and scale
+      successful strategies to ensure consistent business growth.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="pricing">
+
+  <span class="section-tag fade-in">
+    <i class="fa-solid fa-circle-dot"></i> Our Core Services
+  </span>
+
+  <h2 class="section-title fade-in">
+    Flexible Pricing Plans for<br>
+    <span>Every Business</span>
+  </h2>
+
+  <div class="pricing-grid">
+
+    <!-- CTA CARD -->
+    <div class="pricing-card cta fade-in">
+      <h3>Let's Find the<br>Right Strategy for You!</h3>
+      <a href="404.html">Book a Free Consultation <span>→</span></a>
+    </div>
+
+    <!-- STARTER -->
+    <div class="pricing-card starter fade-in">
+      <h4>Starter</h4>
+      <p class="sub">Perfect for startups & small businesses</p>
+      <h2>$99 <span>/Month</span></h2>
+
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+
+      <ul>
+        <li>Basic SEO & Marketing</li>
+        <li>Social Media Management (1 Platform)</li>
+        <li>Monthly Performance Report</li>
+      </ul>
+    </div>
+
+    <!-- ENTERPRISE (HIGHLIGHTED) -->
+    <div class="pricing-card enterprise fade-in">
+      <h4>Enterprise</h4>
+      <p class="sub">Full scale marketing for maximum impact</p>
+      <h2>$399 <span>/Month</span></h2>
+
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+
+      <ul>
+        <li>Complete Digital Marketing Suite</li>
+        <li>Paid Ads Management</li>
+        <li>Dedicated Account Manager</li>
+        <li>Email Marketing & Automation</li>
+        <li>Weekly Performance Insights</li>
+      </ul>
+    </div>
+
+    <!-- GROWTH -->
+    <div class="pricing-card growth fade-in">
+      <h4>Growth</h4>
+      <p class="sub">Best for growing businesses ready to scale</p>
+      <h2>$299 <span>/Month</span></h2>
+
+      <a href="404.html" class="btn">
+  View Details <span>→</span>
+</a>
+
+      <ul>
+        <li>Basic SEO & Marketing</li>
+        <li>Social Media Management (1 Platform)</li>
+        <li>Monthly Performance Report</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+<footer class="site-footer">
+
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-brand fade-in">
+        <div class="logo">
+  <img src="Images/logo.webp" alt="Stackly Logo" class="logo-img">
+</div>
+
+      <h4>Driving Digital Growth with<br>Innovation & Strategy</h4>
+
+      <p>
+  We help businesses grow digitally through innovative strategies,
+  data-driven solutions, and result-oriented marketing that delivers
+  measurable success.
+</p>
+    </div>
+
+    <!-- QUICK LINKS -->
+<div class="footer-links fade-in">
+  <h5>Quick Links</h5>
+  <ul>
+    <li><a href="404.html">Home</a></li>
+    <li><a href="404.html">About Us</a></li>
+    <li><a href="404.html">Service</a></li>
+    <li><a href="404.html">Case Studies</a></li>
+    <li><a href="404.html">Blog</a></li>
+    <li><a href="404.html">Contact Us</a></li>
+  </ul>
+</div>
+
+
+    <!-- SERVICES -->
+<div class="footer-links fade-in">
+  <h5>Services</h5>
+  <ul>
+    <li><a href="404.html">Social Media Marketing</a></li>
+    <li><a href="404.html">SEO Optimization</a></li>
+    <li><a href="404.html">PPC Advertising</a></li>
+    <li><a href="404.html">Content Marketing</a></li>
+    <li><a href="404.html">Branding Strategy</a></li>
+    <li><a href="404.html">Email Marketing</a></li>
+  </ul>
+</div>
+
+
+    <!-- CONTACT -->
+    <div class="footer-contact fade-in">
+      <h5>Contact Info</h5>
+      <p>info@stackly.com</p>
+      <p>+1 234 567 890</p>
+      <p>Salem, Tamilnadu</p>
+
+      <h5 class="social-title fade-in">Social Media</h5>
+    <div class="social-icons">
+  <a href="404.html"  aria-label="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+
+  <a href="404.html" aria-label="Twitter">
+    <i class="fa-brands fa-x-twitter"></i>
+  </a>
+
+  <a href="404.html" aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <a href="404.html" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin-in"></i>
+  </a>
+</div>
+
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom fade-in">
+    <p>© 2025 Stackly. For Creation All Rights Reserved.</p>
+    <div class="bottom-links fade-in">
+      <a href="404.html">Terms of Service</a>
+  <a href="404.html">Privacy Policy</a>
+   
+    </div>
+  </div>
+
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-menu').classList.toggle('active');
+  }
+</script>
+
+<script>
+  const fadeElements = document.querySelectorAll(".fade-in");
+
+  const fadeObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+          fadeObserver.unobserve(entry.target); // animate once
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  fadeElements.forEach(el => fadeObserver.observe(el));
+</script>
+
+<script>
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("page-loader").classList.add("hide");
+    }, 3000); // 👈 loader visible for 1.2s
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 | Page Not Found</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top right, rgba(168,85,247,0.35), transparent 45%),
+              linear-gradient(90deg, rgba(2,6,23,1), rgba(2,6,23,0.85));
+  color: #e5e7eb;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+/* CONTAINER */
+.page-404 {
+  max-width: 1100px;
+  width: 100%;
+  padding: 0 6%;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* LEFT */
+.left h1 {
+  font-size: 120px;
+  font-weight: 900;
+  color: #a855f7;
+  line-height: 1;
+}
+
+.left h2 {
+  font-size: 42px;
+  margin: 15px 0;
+}
+
+.left p {
+  color: #9ca3af;
+  max-width: 520px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* BUTTONS */
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  background: #a855f7;
+  color: #020617;
+  padding: 14px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #7c3aed;
+}
+
+.btn-outline {
+  border: 1px solid rgba(168,85,247,0.5);
+  color: #e5e7eb;
+  padding: 14px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: rgba(168,85,247,0.15);
+}
+
+/* RIGHT CARD */
+.right {
+  background: radial-gradient(circle at top, #111827, #020617);
+  border-radius: 28px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 0 45px rgba(168,85,247,0.35);
+}
+
+.icon-box {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 24px;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1px rgba(168,85,247,0.4);
+  margin-bottom: 25px;
+}
+
+.icon-box i {
+  font-size: 38px;
+  color: #a855f7;
+}
+
+.right h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.right p {
+  color: #9ca3af;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .page-404 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 90px;
+  }
+
+  .left h2 {
+    font-size: 30px;
+  }
+
+  .actions {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-primary,
+  .btn-outline {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page-404">
+
+  <!-- LEFT CONTENT -->
+  <div class="left">
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>
+      Oops! The page you’re looking for doesn’t exist or has been moved.
+      Let’s get you back on track and continue your digital journey.
+    </p>
+
+    <div class="actions">
+      <a href="index.html" class="btn-primary">
+        Go to Homepage <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- RIGHT CARD -->
+  <div class="right">
+    <div class="icon-box">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+    </div>
+    <h3>Something Went Wrong</h3>
+    <p>
+      The page you requested could not be found. Please check the URL
+      or return to the homepage to explore our services.
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>
