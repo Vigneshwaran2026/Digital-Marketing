@@ -136,6 +136,30 @@ html, body {
   border-radius: 30px;
   text-decoration: none;
   font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: 
+    background 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Hover */
+.call-btn:hover {
+  background: #9333ea;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(168, 85, 247, 0.55);
+}
+
+/* Icon subtle move */
+.call-btn:hover i {
+  transform: translateX(3px);
+}
+
+/* Icon transition */
+.call-btn i {
+  transition: transform 0.3s ease;
 }
 
 /* ================= MOBILE & TABLET ================= */
